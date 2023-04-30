@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./parent-data.component.scss'],
 })
 export class ParentDataComponent {
-  @Input() name: string = '';
+  @Input() name!: string;
 }
